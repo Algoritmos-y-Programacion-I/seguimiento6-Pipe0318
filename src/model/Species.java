@@ -28,4 +28,12 @@ public class Species {
 		this.scientificName = scientificName;
 	}
 
+	@Override
+	public String toString() {
+		return "Name: " + name + 
+		"\n Scientific Name: " + scientificName;
+	}
+
+	
+
 }
